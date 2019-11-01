@@ -1,0 +1,1023 @@
+body {
+    font-family: Arial, sans-serif;
+    padding: 0; 
+    margin: 0; 
+  }
+
+header {
+    padding: 20px 0 20px 0;
+  }
+
+.block {
+    padding-left: 115px;
+    padding-right: 115px;
+}
+
+.banner {
+    background: url(img/first-background.png) no-repeat 50% 28% / cover;
+    background-color: #000000; 
+    color: white;
+    text-align: center; 
+}
+
+.block {
+    cursor: default;
+}
+
+.banner .title {
+    text-align: center;
+    font-size: 55px;
+    padding-top: 220px;
+    margin: 0;
+}
+
+.title {
+    font-family: 'OpenSans Bold', sans-serif;
+    font-size: 30px;
+    text-align: center;
+}
+
+.aboutUs a {
+    text-decoration: none;
+    color: #000000; 
+}
+
+.aboutUs .title,
+.services .title,
+.works .title,
+.pricing .title,
+.team .title,
+.blog .title,
+.contacts .title {
+    padding-top: 130px;   
+    margin: 0; 
+}
+
+.subtitle {
+    text-align: center;
+    font-size: 20px;
+}
+
+p {
+    text-align: center;
+    font-size: 14px;
+}
+
+.arrow {
+    padding: 98px 0 55px 0; 
+}
+
+.banner .btn {
+    width: 217px;
+    height: 70px;
+    border: solid 2px white;
+    background: rgba(255, 255, 255,0);
+}
+
+.banner .btn-group .transparent-btn, 
+.works .btn-group .transparent-btn{
+    margin-right:15px;
+}
+
+.btn {
+    margin: 0 auto;
+    font-size: 18px;
+    text-transform: uppercase;
+    width: 150px;
+    height: 55px;
+    color: white;
+    cursor: pointer; 
+}
+
+.btn-group {
+    text-align: center;
+    padding-top: 32px;
+    font-family: 'OpenSans Bold', sans-serif;
+}
+
+.btn-group .btn:hover{
+    background: rgb(63, 134, 117);
+    border: none ;
+}
+
+.transparent-btn {
+    border: solid 2px white;
+    background: rgba(255, 255, 255,0);
+}
+
+.transparent-btn:hover {
+    background: rgb(63, 134, 117);
+    border: none;
+}
+
+.list   {
+    text-align: center;
+    display: flex;
+    flex-wrap: wrap; 
+    justify-content: space-around; 
+}
+
+.aboutUs .list {
+    padding-top: 125px;
+}
+
+.aboutUs .item p {
+    margin-bottom: 45px;
+}
+
+.aboutUs .item {
+    background-color:white; 
+}
+
+.item {
+    box-sizing: border-box;
+    width: 330px;
+    text-align: center;
+    margin: 15px;
+}
+
+.services .item {
+    padding: 45px 35px;
+    background-color:white; 
+}
+
+.services {
+    background-color: rgba(228, 253, 249);
+}
+
+.services .list {
+    padding-bottom: 105px;
+    padding-top: 80px;
+}
+
+.services .item:hover{
+    box-shadow: 0 0 10px 3px rgba(99, 95, 95, 0.781);
+    background-color:rgb(63, 134, 117); 
+    color:white;
+}
+
+.item:hover .btn {
+    color: white;
+    border: 2px solid white;
+}
+
+.services .btn{
+    color: black;
+    border: solid 1px black;  
+    margin-top: 45px;
+}
+
+.item .default-img, .hover-img {
+    margin: auto;
+}
+
+.item .default-img {
+    display: block;
+}
+
+.item .hover-img {
+    display: none;
+}
+
+.item:hover .hover-img {
+    display: block;
+}
+
+.item:hover .default-img {
+    display: none;
+}
+
+.works .btn-group {
+    padding-top: 80px;
+    padding-bottom: 105px;
+}
+
+.works .transparent-btn {
+    color: #000000;
+    border: solid 2px rgb(63, 134, 117);
+    background: rgba(255, 255, 255,0);
+    text-align: center;
+}
+
+.works .transparent-btn:hover {
+    color:white;
+    background: rgb(63, 134, 117);
+}
+
+.works .list img{
+    width: 330px;
+    height: 330px; 
+}
+
+.works .list {
+    padding-bottom: 45px;
+}
+
+.works .item-title {
+    display: none;
+    position: absolute;
+    color: white; 
+    background: rgba(0, 0, 0, .7);
+    width: 330px;
+    height: 330px; 
+}
+
+.works a {
+    display: block;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.works .item:hover .item-title {
+    display: block; 
+    background: rgba(0, 0, 0, .7);
+}
+
+.test {
+    padding-top: 40%;
+}
+
+.pricing {
+    background: #9187a725;
+}
+
+.pricing .list {
+    padding-bottom: 125px;
+    padding-top: 120px;
+}
+
+.pricing .transparent-btn {
+    color: #000000;
+    border: solid 2px black;
+    background: rgba(255, 255, 255,0);
+    text-align: center;
+    align-items: flex-end;
+}
+
+.pricing .item:hover{
+    box-shadow: 0 0 10px 3px rgba(99, 95, 95, 0.781);
+    color: white;
+}
+
+.pricing .item:hover .btn {
+    color: white;
+    border: 2px solid white;
+    background-color:rgb(63, 134, 117); 
+}
+
+.pricing .btn{
+    color: black;
+    border: solid 1px black;  
+}
+
+.pricing .item {
+    flex: 0 0 250px;
+    background: white;
+    margin: 15px;
+    height: 670px;
+    width: 330px;
+    background-image: linear-gradient(175deg , rgb(57, 73, 171) 32.8%, rgba(255, 255, 255, 0) 33%, rgba(255, 255, 255, 0) 100%);
+}
+
+.pricing .list li {
+   line-height: 50px;
+   list-style-type: none;
+   white-space:nowrap;
+   border-bottom: 2px solid rgba(128, 128, 128, 0.212);
+}
+
+.pricing .list a {
+    display: block;
+    width: 180px;
+    color: #000000;
+    text-decoration: none; 
+}
+
+.shift-in-card {
+    margin: 0 auto;
+    padding: 115px 90px 33px 90px;
+    text-align: center;
+}
+
+.pricing .sub-title-text,
+p1, p2, h1, h4 {
+    padding-top: 40px;
+    text-align: center;
+    white-space:nowrap;
+    color: white;
+}
+
+.pricing .list h1 {
+    margin: 0 auto;
+}
+
+.pricing .list h4 {
+    margin: 0 auto;
+    padding-top: 50px;
+}
+
+p1 {
+    font-size:36px;
+}
+
+.pricing .list .btn-group {
+    padding-bottom: 50px;
+}
+
+.team .list {
+    padding-top: 125px;
+}
+
+.team .list img {
+    width: 330px;
+    height: 320px;
+    border-radius: 2%;
+}
+
+.blog .item .icons {
+    width: 50px;
+    height: 50px;
+    border-radius: 2%;
+    background-color: gray;
+    padding: 10px 5px;
+}
+
+.blog {
+    background-color: rgba(228, 253, 249);
+}
+
+.fa-twitter,
+.fa-facebook,
+.fa-comments,
+.fa-dribbble
+ {
+    color: rgb(63, 134, 117);
+    font-size: 24px;
+}
+
+.icons {
+    justify-content: center;
+    display: flex;
+}
+
+.icons .social {
+    text-align: center;
+    background-color: rgba(240, 241, 241);
+    width: 20px;
+    height: 20px;
+    border: 1px solid rgba(204, 204, 204, 0.123);
+    border-radius: 10px;
+    padding: 9px;
+    color: #000;
+    margin:10px; 
+}
+
+.icons .social:hover {
+    background-color: rgb(57, 73, 171);
+}
+
+.icons .social:hover .fa-facebook {
+    color: white;
+}
+
+.icons .social:hover .fa-twitter {
+    color: white;
+}
+
+.icons .social:hover .fa-comments {
+    color: white;
+}
+
+.icons .social:hover .fa-dribbble {
+    color: white;
+}
+
+.circle-green {
+    color: rgb(63, 134, 117);
+    font-size: 12px;
+} 
+
+.fa-circle:hover {
+    color: rgb(57, 73, 171);
+}
+
+.circle {
+    padding-top: 105px;
+    text-align: center;
+    padding-bottom: 120px;
+}
+
+.blog .list {
+    padding-top: 125px;
+    
+}
+
+.wrapper {
+    display: flex; 
+    flex-direction: row;   
+}
+
+.Blog h3, 
+.fa-calendar,
+.fa-file-o {
+    text-align: left;
+    padding-right: 30px;   
+}
+
+.fa-calendar,
+.fa-file-o {
+    display: inline;
+    color: #000;
+}
+
+.fa-calendar:before {
+    padding-right: 15px;
+}
+
+.fa-file-o:before {
+    padding-right: 15px;
+}
+
+.paragraph {
+    width: 560px;
+    text-align: left;
+    padding-left: 10px;
+    padding-top: 60px;  
+}
+
+.blog .paragraph-block {
+    width: 435px;
+}
+
+.blog img {
+    width: 545px;
+    padding: 10px;
+}
+
+.shift-title {
+    text-align: left;
+}
+
+.blog a {
+    text-decoration: none; 
+}
+
+.blog .transparent-btn {
+    color: black;
+    border: solid 2px rgb(63, 134, 117);
+}
+
+.blog .transparent-btn:hover {
+    color: white;
+    background-color: rgb(63, 134, 117);
+}
+
+.blog .btn-group {
+    padding-top: 130px;
+    padding-bottom: 125px;
+}
+
+.contacts {
+    background: url(img/last-background.png) no-repeat 50% 28% / cover;
+    background-color: #212121;
+    color: white;
+    text-align: center; 
+}
+
+.contacts .list {
+    padding-top: 90px;
+}
+
+.contacts .item .fa {
+    color:white;
+    text-align: center;
+    background-color: rgb(57, 73, 171);
+    width: 50px;
+    height: 50px;
+    border: 1px solid rgba(204, 204, 204, 0.123);
+    border-radius: 40px;
+    padding: 12px;
+    color: #000;
+}
+
+.fa-map-marker::before,
+.fa-phone::before,
+.fa-envelope-o::before
+{
+    color:white;
+    font-size: 45px;   
+}
+
+.contacts .item p {
+    color: white;
+}
+
+.contacts .form {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    padding: 10px;
+    padding-top: 65px;
+}
+
+.form .input-group {
+    display: flex;
+}
+
+.form .input-field{
+    width: 100%;
+    border-radius:6px;
+    padding:20px;
+    background-color: white;
+    margin: 15px;
+}
+
+.form .textarea {
+    margin: 15px;
+    height: 320px;
+    border-radius:7px;
+    background-color: white;
+    padding: 20px;
+}
+
+.btn-contacts {
+    display: flex;
+    justify-content:flex-end;
+}
+
+.contacts .button {
+    height: 60px;
+    border-radius:7px;
+    background-color: white;
+    width: 220px;
+    border: 1px solid rgba(204, 204, 204, 0.123);
+    margin:15px;
+    margin-bottom: 95px;
+}
+
+.contacts .button:hover {
+    font-weight:bold;
+    cursor: pointer;
+}
+
+.sub-menu .icon {
+    display: none;
+}
+
+.nav {
+    display: flex;
+    list-style: none;
+    justify-content: space-between;
+    margin-right: 150px;
+    margin-left: 150px;
+    align-items: center;
+    background: white;
+} 
+
+.nav ul a {
+    text-decoration: none;
+    padding: 20px;
+    font-size: 18px;
+    color: black;
+}
+
+.nav ul a:hover {
+    text-decoration: none; 
+    color: black;
+}
+
+.logo {
+  width: 100px;
+  height: auto;
+}
+ 
+ul {
+    display: flex;
+    flex-wrap: wrap;
+    list-style-type: none;
+}
+
+  li {
+    padding: 5px;
+    cursor: pointer;
+  }
+
+.nav .sub-menu{
+      display: none;
+  }
+
+  @media screen and (max-width: 1024px) {
+    .wrapper {
+        display: inline-block;
+    } 
+
+    header {
+        padding: 0;
+    }
+
+    .block {
+        padding-left: 40px;
+        padding-right: 40px;
+    }
+
+    .nav {
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+
+    .banner .title {
+        margin: 0;
+        padding-top: 150px;
+    }
+
+    .aboutUs .title,
+    .works .title,
+    .services .title, 
+    .pricing .title,
+    .team .title,
+    .blog .title,
+    .contacts .title {
+        padding-top: 65px;
+        margin: 0;
+    }
+
+    .aboutUs .list,
+    .contacts .list,
+    .services .list,
+    .works .list,
+    .pricing .list, 
+    .team .list,
+    .blog .list  {
+        padding-top: 65px;
+    } 
+
+    .aboutUs .list,
+    .contacts .list {
+        flex-wrap: nowrap;
+        padding-bottom: 30px;
+    }
+
+    .blog .paragraph {
+        text-align: center;
+        padding-top: 10px;
+        padding-left: 0px;
+        padding-bottom: 10px;
+        width: 100%;
+    }
+
+    .blog .paragraph-block {
+        width: 100%;
+        text-align: center;
+    }
+
+    .blog .shift-title {
+        text-align: center;
+    }
+
+    .blog .list .wrapper:nth-child(2) {
+        display: flex;
+        flex-direction: column-reverse;
+    } 
+
+    .contacts .form {
+        padding-top: 45px;
+    }
+    }
+
+@media screen and (max-width: 768px) {
+    .search {
+        display: none;
+    }
+
+    .block {
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    header {
+        width: 100%;
+        padding: 0;
+    }
+
+    .banner > h1 {
+        display: none;
+    }
+    
+    .nav {
+        margin-left: 20px;
+        margin-right: 0;
+    }
+
+    .nav ul a {
+        text-decoration: none;
+        padding: 10px;
+    }
+
+    .banner > .subtitle {
+        padding-top: 170px;
+        margin: 0;
+    }
+
+    .banner .btn-group > .btn {
+        margin-right: 12px;
+        margin-top: 15px;
+    }
+
+    .works .btn-group > .btn {
+        margin-right: 12px;
+        margin-top: 15px;
+        width: 167px;
+        height: 60px;
+        text-align: center;
+    }
+
+    .pricing .btn-group > .btn {
+        width: 167px;
+        height: 60px;
+        text-align: center;
+    }
+
+    .wrapper {
+        overflow: hidden;
+    }
+
+    .aboutUs .title,
+    .works .title,
+    .services .title, 
+    .pricing .title,
+    .team .title,
+    .blog .title,
+    .contacts .title {
+        padding-top: 65px;
+    }
+
+    .services .list {
+        padding-bottom: 40px; 
+    }
+
+    .works .btn-group {
+        padding-top: 40px;
+        padding-bottom: 45px;
+    }    
+
+    .aboutUs .list,
+    .works .list,
+    .services .list, 
+    .pricing .list,
+    .team .list,
+    .blog .list,
+    .contacts .list
+     {
+        padding-top: 25px;
+    }
+
+    .circle {
+        display: none;
+    }
+
+    .blog .btn-group {
+        padding-top: 55px;
+        padding-bottom: 60px;
+    }
+
+    .pricing .btn-group {
+        padding-top: 10px;
+        padding-bottom: 30px;
+    }
+
+    .pricing .item {
+        height: 640px;
+    }
+
+    .shift-in-card {
+        padding: 95px 90px 33px 90px;
+    }
+
+    .form .textarea {
+        height: 120px;
+    }
+
+    .blog img {
+        padding: 0px;
+    }
+
+    .contacts .list {
+        flex-wrap: nowrap;
+        width: 100%;
+    }
+
+    .contacts .item .fa {
+        width: 30px;
+        height: 30px;
+    }
+
+    .fa-map-marker::before, .fa-phone::before, .fa-envelope-o::before {
+        font-size: 30px;
+    }
+
+    .blog .paragraph {
+        text-align: center;
+        padding-top: 10px;
+        padding-left: 0px;
+        padding-bottom: 10px;
+        width: 100%;
+    }
+
+    .blog .paragraph-block {
+        width: 100%;
+        text-align: center;
+    }
+
+    .blog .shift-title {
+        text-align: center;
+    }
+
+    .blog .list .wrapper:nth-child(2) {
+        display: flex;
+        flex-direction: column-reverse;
+    } 
+
+    .contacts .form {
+        padding-top: 45px;
+    }
+    }
+
+@media screen and (max-width: 460px) {
+    .logo {
+        width: 100px;
+    }
+
+    header {
+        padding: 0;
+    }
+
+    .main .block h2 {
+        padding-top:70px; 
+        margin: 0;
+    }
+
+    .banner > h1 {
+        display: none;
+    }
+
+    .banner .subtitle {
+        padding-top: 90px;
+    }
+
+    .block {
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    .wrapper img {
+        width: 100%;
+    }
+
+    .aboutUs .list,
+    .works .list,
+    .services .list, 
+    .pricing .list,
+    .team .list,
+    .blog .list,
+    .contacts .list
+     {
+        flex-wrap: wrap;
+    }
+
+    .contacts .list
+     {
+        flex-wrap: nowrap;
+    }
+
+    .pricing .item {        
+        height: 490px;
+        width: 100%;
+        flex: unset;
+    }
+
+    .pricing ul {
+        display: block;
+    }
+
+    .pricing .list a {
+        display: unset;
+    }
+
+    .pricing .sub-title-text, p1, p2, h1, h4 {
+        padding:10px;
+    }
+
+    .pricing .shift-in-card {
+    padding: 20px 30px 0;
+    }
+
+    .pricing .list .btn-group {
+        padding: 0px;
+        margin-top: 10px;
+    }  
+
+    .pricing .list h4 {
+        padding-top: 45px;
+    }
+
+    .pricing .list {
+        padding-bottom:45px;
+    }
+
+    .contacts .list {
+        display: flex;
+        width: 100%;
+    }
+
+    .contacts .list .item {
+        margin: 0;
+    }
+
+    .nav .menu {
+        display: none;
+    }
+    
+    .nav .sub-menu{
+        display: block;
+        margin-right: 10px;
+        margin-top: 0;
+        margin-bottom: 0;
+    }
+    
+    .nav {
+        margin-right: 0;
+        margin-left: 0;
+        padding: 10px;
+        justify-content: space-between;
+        align-items: center;
+        background: white;
+        position: relative;
+    }   
+    
+    .nav .min-menu {
+        margin: 0;
+        padding: 0;
+        position: absolute;
+        width: 100%;
+        background-color: white;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        right: 0;
+        top: 40px;
+        display: none;
+        }
+        
+    .nav a {
+        display: block;
+        color:#000;
+        text-decoration: none;
+        text-transform: uppercase; 
+        font-size: 14px;
+        padding: 15px;
+        } 
+        
+    .nav .sub-menu li:hover,
+        a:focus {
+        content: '';
+        font-weight: bold;
+        background-color: rgba(145, 140, 140, 0.938);
+        }
+        
+    .nav > .sub-menu .current:hover .min-menu {
+        display: block;
+    }  
+    
+    .sub-menu .icon {
+        display: block;
+        width: 30px;
+    }
+
+    .min-menu li {
+        text-align: center;
+    }
+
+    a {
+        text-decoration: none;
+    }
+
+    .contacts .form {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .contacts .input-group {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .contacts .input-field {
+        width: unset;
+    }
+
+    .contacts .button {
+        width: 100%;
+    }
+}
+    
